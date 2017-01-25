@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="0.2"
+    android:padding="16dp"
+    android:background="@color/Khaki">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@color/LightSteelBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/app_name"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:background="@color/RosyBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <EditText
+            android:background="@color/Coral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"/>
+        <EditText
+            android:background="@color/LemonChiffon"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/IndianRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_weight="0.3"
+        android:gravity="center">
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@color/MediumPurple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"/>
+        <Button
+            android:background="@color/LightSlateGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"/>
+    </LinearLayout>
+</LinearLayout>
